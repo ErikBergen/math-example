@@ -4,9 +4,9 @@
 public class SimpleAddition {
 
     public static void main(String[] args) {
-        int x=6;
-        int y=8;
-        int z= x+y;
+        double arg1=Double.parseDouble(args[0]);
+        double arg2=Double.parseDouble(args[1]);
+        double z= arg1+arg2;
         System.out.println(z);
     }
 }
